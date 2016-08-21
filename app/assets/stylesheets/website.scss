@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Minion Pro Regular";
-  src: url(/assets/MinionPro-Regular.otf) format("truetype");
+  src: font-url("/assets/MinionPro-Regular.otf") format("truetype");
 }
 
 @font-face {
   font-family: "DIN Pro Light";
-  src: url(/assets/DINPro-Light.ttf) format("truetype");
+  src: font-url("/assets/DINPro-Light.ttf") format("truetype");
 }
 
 
