@@ -1,0 +1,23 @@
+body {
+  padding-left: 40px;
+  padding-top: 40px;
+}
+
+#navbar {
+  display: inline;
+
+  .website-owner {
+    display: inline;
+  }
+  .website-links {
+    display: inline;
+    ul {
+      display: inline;
+      list-style-type: none;
+
+      li {
+        display: inline;
+      }
+    }
+  }
+}
