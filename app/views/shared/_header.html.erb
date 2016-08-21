@@ -4,9 +4,9 @@
   </div>
   <div class='website-links'>
     <ul>
-      <li> Work </li>
-      <li> Resume </li>
-      <li> About </li>
+      <li> <%= link_to "Work", projects_path %> </li>
+      <li> <%= link_to "Resume", root_path %> </li>
+      <li> <%= link_to "About", user_path(website_user.id) %> </li>
     </ul>
   </div>
 </div>

@@ -1,6 +1,20 @@
+@font-face {
+  font-family: "Minion Pro Regular";
+  src: url(/assets/MinionPro-Regular.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "DIN Pro Light";
+  src: url(/assets/DINPro-Light.ttf) format("truetype");
+}
+
+
 body {
   padding-left: 40px;
   padding-top: 40px;
+  background: #D1D2D4;
+  max-width: 1420px;
+  font-family: "DIN Pro Light";
 }
 
 #navbar {
@@ -8,15 +22,37 @@ body {
 
   .website-owner {
     display: inline;
+    padding: 5px;
+    background-color: white;
+    font-family: "DIN Pro Light";
+    color: #8FBCC8;
+    text-transform: Uppercase;
+    font-size: 38px;
   }
   .website-links {
     display: inline;
     ul {
       display: inline;
       list-style-type: none;
+      float: right;
+      margin-top: 29px;
 
       li {
         display: inline;
+        display: inline;
+        padding: 5px;
+        background-color: white;
+        margin-right: 10px;
+
+        a {
+          color: #8FBCC8;
+          text-decoration: blink;
+          text-transform: Uppercase;
+        }
+
+        a:hover {
+          color: black;
+        }
       }
     }
   }
