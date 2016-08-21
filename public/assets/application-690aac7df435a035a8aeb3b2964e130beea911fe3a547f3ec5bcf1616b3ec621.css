@@ -1,0 +1,201 @@
+/* line 1, /home/david/apps/luke_website/app/assets/stylesheets/projects.scss */
+.projects-container {
+  margin-top: 24px;
+  margin-left: 30px;
+  max-width: 1355px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+/* line 9, /home/david/apps/luke_website/app/assets/stylesheets/projects.scss */
+.projects-container .project {
+  width: 194px;
+  margin-bottom: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(100%);
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(100%);
+  -o-transition: .5s ease-in-out;
+}
+/* line 25, /home/david/apps/luke_website/app/assets/stylesheets/projects.scss */
+.projects-container .project .project-desc {
+  padding-right: 5px;
+}
+/* line 27, /home/david/apps/luke_website/app/assets/stylesheets/projects.scss */
+.projects-container .project .project-desc .project-title {
+  display: inline;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+}
+/* line 34, /home/david/apps/luke_website/app/assets/stylesheets/projects.scss */
+.projects-container .project .project-desc .project-year {
+  display: inline;
+  float: right;
+  font-size: 14px;
+}
+/* line 39, /home/david/apps/luke_website/app/assets/stylesheets/projects.scss */
+.projects-container .project .project-desc .project-subtitle {
+  margin-top: 4px;
+  font-size: 12px;
+}
+/* line 45, /home/david/apps/luke_website/app/assets/stylesheets/projects.scss */
+.projects-container .project .project-head-divison {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  background-image: url(/assets/DashedLine_Black-49c369f75ce6dd784546245130630b2e0a4828f180c9e981a63e81946688e451.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+}
+/* line 57, /home/david/apps/luke_website/app/assets/stylesheets/projects.scss */
+.projects-container .project .project-foot-divison {
+  margin-top: 5px;
+  border-left: 1px solid #000;
+  border-bottom: 6px solid #000;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+}
+/* line 66, /home/david/apps/luke_website/app/assets/stylesheets/projects.scss */
+.projects-container .project a:-webkit-any-link {
+  text-decoration: blink !important;
+  color: black;
+}
+/* line 71, /home/david/apps/luke_website/app/assets/stylesheets/projects.scss */
+.projects-container .project:hover {
+  background-color: white;
+  -webkit-filter: grayscale(0%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(0%);
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(0%);
+  -o-transition: .5s ease-in-out;
+}
+/* line 80, /home/david/apps/luke_website/app/assets/stylesheets/projects.scss */
+.projects-container .project:hover .project-head-divison {
+  background-image: url(/assets/DashedLine_Blue-70ef639c37346c439b287a18961fc6c72a31fa6bd00992207125863d49aadbfb.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+}
+/* line 90, /home/david/apps/luke_website/app/assets/stylesheets/projects.scss */
+.projects-container .project:hover .project-foot-divison {
+  border-color: #87B7C4;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+}
+
+/* line 99, /home/david/apps/luke_website/app/assets/stylesheets/projects.scss */
+.projects-show {
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  margin-left: 40px;
+  max-width: 1225px;
+  background-color: white;
+}
+/* line 108, /home/david/apps/luke_website/app/assets/stylesheets/projects.scss */
+.projects-show .show-header {
+  margin-bottom: 5px;
+}
+/* line 110, /home/david/apps/luke_website/app/assets/stylesheets/projects.scss */
+.projects-show .show-header .project-name {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+}
+/* line 117, /home/david/apps/luke_website/app/assets/stylesheets/projects.scss */
+.projects-show .project-division {
+  background-image: url(/assets/DashedLine_Blue-70ef639c37346c439b287a18961fc6c72a31fa6bd00992207125863d49aadbfb.png);
+  background-size: cover;
+  background-size: contain;
+  height: 15px;
+  margin-bottom: 10px;
+}
+@font-face {
+  font-family: "Minion Pro Regular";
+  src: url(/assets/MinionPro-Regular.otf) format("truetype");
+}
+@font-face {
+  font-family: "DIN Pro Light";
+  src: url(/assets/DINPro-Light.ttf) format("truetype");
+}
+/* line 12, /home/david/apps/luke_website/app/assets/stylesheets/website.scss */
+body {
+  background: #D1D2D4;
+  font-family: "DIN Pro Light";
+}
+
+/* line 17, /home/david/apps/luke_website/app/assets/stylesheets/website.scss */
+.navbar {
+  max-width: 1265px;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+/* line 22, /home/david/apps/luke_website/app/assets/stylesheets/website.scss */
+.navbar .website-owner {
+  display: inline;
+  padding: 5px;
+  background-color: white;
+  font-family: "DIN Pro Light";
+  color: #8FBCC8;
+  text-transform: Uppercase;
+  font-size: 38px;
+}
+/* line 31, /home/david/apps/luke_website/app/assets/stylesheets/website.scss */
+.navbar .website-links {
+  display: inline;
+}
+/* line 33, /home/david/apps/luke_website/app/assets/stylesheets/website.scss */
+.navbar .website-links ul {
+  display: inline;
+  list-style-type: none;
+  float: right;
+  margin-top: 29px;
+}
+/* line 39, /home/david/apps/luke_website/app/assets/stylesheets/website.scss */
+.navbar .website-links ul li {
+  display: inline;
+  display: inline;
+  padding: 5px;
+  background-color: white;
+  margin-left: 10px;
+}
+/* line 46, /home/david/apps/luke_website/app/assets/stylesheets/website.scss */
+.navbar .website-links ul li a {
+  color: #8FBCC8;
+  text-decoration: blink;
+  text-transform: Uppercase;
+}
+/* line 52, /home/david/apps/luke_website/app/assets/stylesheets/website.scss */
+.navbar .website-links ul li a:hover {
+  color: black;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
