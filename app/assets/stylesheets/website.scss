@@ -10,15 +10,14 @@
 
 
 body {
-  padding-left: 40px;
-  padding-top: 40px;
   background: #D1D2D4;
-  max-width: 1420px;
   font-family: "DIN Pro Light";
 }
 
-#navbar {
-  display: inline;
+.navbar {
+  max-width: 1275px;
+  padding-left: 40px;
+  padding-top: 40px;
 
   .website-owner {
     display: inline;

@@ -1,0 +1,97 @@
+.projects-container {
+  margin-top: 24px;
+  margin-left: 30px;
+  max-width: 1355px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  .project {
+    width: 194px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: .5s ease-in-out;
+    -moz-filter: grayscale(100%);
+    -moz-transition: .5s ease-in-out;
+    -o-filter: grayscale(100%);
+    -o-transition: .5s ease-in-out;
+
+    .project-avatar {
+
+    }
+
+    .project-desc {
+      padding-right: 5px;
+      .project-title {
+        display: inline;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 14px;
+      }
+
+      .project-year {
+        display: inline;
+        float: right;
+        font-size: 14px;
+      }
+      .project-subtitle{
+        margin-top: 4px;
+        font-size: 12px;
+      }
+    }
+
+    .project-head-divison {
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      background-image: image_url('DashedLine_Black.png');
+      background-size:     cover;
+      background-repeat:   no-repeat;
+      background-position: center center;
+      -webkit-transition: .5s ease-in-out;
+      -moz-transition: .5s ease-in-out;
+      -o-transition: .5s ease-in-out;
+    }
+
+    .project-foot-divison {
+      margin-top: 5px;
+      border-left:1px solid #000;
+      border-bottom: 6px solid #000;
+      -webkit-transition: .5s ease-in-out;
+      -moz-transition: .5s ease-in-out;
+      -o-transition: .5s ease-in-out;
+    }
+
+    a:-webkit-any-link {
+      text-decoration: blink !important;
+      color: black;
+    }
+  }
+  .project:hover {
+    background-color: white;
+    -webkit-filter: grayscale(0%);
+    -webkit-transition: .5s ease-in-out;
+    -moz-filter: grayscale(0%);
+    -moz-transition: .5s ease-in-out;
+    -o-filter: grayscale(0%);
+    -o-transition: .5s ease-in-out;
+
+    .project-head-divison {
+      background-image: image_url('DashedLine_Blue.png');
+      background-size:     cover;
+      background-repeat:   no-repeat;
+      background-position: center center;
+      -webkit-transition: .5s ease-in-out;
+      -moz-transition: .5s ease-in-out;
+      -o-transition: .5s ease-in-out;
+    }
+
+    .project-foot-divison {
+      border-color: #87B7C4;
+      -webkit-transition: .5s ease-in-out;
+      -moz-transition: .5s ease-in-out;
+      -o-transition: .5s ease-in-out;
+    }
+  }
+}
