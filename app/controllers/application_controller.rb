@@ -6,6 +6,6 @@ class ApplicationController < ActionController::Base
 
   private
   def website_user
-    @website_user ||= User.first
+    User.first
   end
 end
